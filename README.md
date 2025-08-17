@@ -5,6 +5,25 @@ This project simulates trading features like authentication, portfolio managemen
 
 ---
 
+## 🛠️ Quick Start  
+
+### Clone the repository  
+```bash
+git clone https://github.com/your-username/upward-trading-clone.git
+```
+### Frontend setup
+```bash
+cd upward-front
+npm install
+npm start
+```
+### Backend Setup
+```bash
+cd upward-trading-clone/upward-back
+mvn spring-boot:run
+```
+---
+
 ## 🚀 Tech Stack  
 
 ### Frontend (React + TypeScript)  
@@ -30,22 +49,10 @@ This project simulates trading features like authentication, portfolio managemen
 
 ---
 
-## 🛠️ Quick Start  
+## Frontend Architechture
 
-### Clone the repository  
-```bash
-git clone https://github.com/your-username/upward-trading-clone.git
-```
-### Frontend setup
-```bash
-cd upward-front
-npm install
-npm start
-```
-### Backend Setup
-```bash
-cd upward-trading-clone/upward-back
-mvn spring-boot:run
-```
----
+
+Here’s the current frontend plan for **Upward**:
+
+![Frontend Plan](./assests/images/frontend-architechture_preview.png)
 
