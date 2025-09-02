@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="about text-white flex flex-col items-center  px-9 py-12 min-h-[70vh]">
-      <h1 className="text-5xl md:text-6xl  mb-6 text-white">About Us</h1>
+      <h1 className="text-5xl md:text-6xl  mb-6 text-white">About</h1>
       <p className="text-lg text-gray-300 max-w-2xl text-center mb-8">
         UPWARD is built to simplify trading and investing. Whether you’re a beginner or a pro,
         our tools help you track, analyze, and grow your portfolio — all in one place.
