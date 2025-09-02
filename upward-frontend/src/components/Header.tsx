@@ -1,4 +1,4 @@
-
+import { useState } from "react";
 import { Menu, X } from "lucide-react"; // install lucide-react for icons: npm install lucide-react
 
 const Header = () => {
