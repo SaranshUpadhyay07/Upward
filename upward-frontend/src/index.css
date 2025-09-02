@@ -46,3 +46,6 @@ header{
 .shadowing-green{
   text-shadow: 1px 1px 18px rgb(0, 255, 149)
 }
+.boxing{
+  box-shadow: 1px 1px 10x rgb(0, 255, 149);
+}
