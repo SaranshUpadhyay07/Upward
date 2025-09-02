@@ -5,7 +5,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="backdrop-blur-md bg-black text-white flex justify-between items-center px-6 py-4 shadow-lg border-b border-gray-800">
+    <header className="backdrop-blur-md bg-gradient-to-r from-black to-gray-900 text-white flex justify-between items-center px-6 py-4 shadow-lg border-b border-gray-800 header">
       
       {/* Logo Section */}
       <div className="flex items-center gap-2">

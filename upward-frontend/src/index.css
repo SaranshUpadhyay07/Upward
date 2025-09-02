@@ -49,3 +49,13 @@ header{
 .boxing{
   box-shadow: 1px 1px 10x rgb(0, 255, 149);
 }
+.header{
+  border-bottom:2px solid rgb(115, 115, 115);
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:100;
+    backdrop-filter: blur(10px);           /* blur intensity */
+  -webkit-backdrop-filter: blur(10px);
+  
+}
