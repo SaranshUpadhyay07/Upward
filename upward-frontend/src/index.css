@@ -23,9 +23,26 @@ header{
   border-bottom: rgb(193, 192, 192) 1px solid;
   padding-bottom: 20px !important;
 }
-.hero{
-  height: 100vh;
+.hero-container{
+  position: relative;
+}
+.hero-container img{
+  position:absolute;
+  top:25%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.hero-container p{
+  position:absolute;
+  bottom:65%;
+  
 }
 .about{
   margin-top: 2em;
+}
+.shadowing{
+  text-shadow: 1px 1px 18px rgb(0, 132, 255)
+}
+.shadowing-green{
+  text-shadow: 1px 1px 18px rgb(0, 255, 149)
 }

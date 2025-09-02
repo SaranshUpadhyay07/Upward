@@ -2,9 +2,9 @@
 
 const Hero = () => {
   return (
-    <div className="flex flex-col gap-12 justify-center items-center h-[90vh] ">
-        <p className="text-white text-7xl text-center mt-3">Upward Your Wealth</p>
-        <img src="/hero.svg"/>
+    <div className="hero-container flex flex-col gap-12 justify-center items-center h-[90vh] ">
+        <p className="shadowing text-white text-9xl text-center font-semibold">Upward Your Wealth</p>
+        <img src="/hero.svg" className="ml-12"/>
     </div>
   )
 }
