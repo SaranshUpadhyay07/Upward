@@ -1,4 +1,4 @@
-import { FaBeer } from "react-icons/fa";
+
 import { 
   IoBarChartOutline, 
   IoFlashOutline, 
