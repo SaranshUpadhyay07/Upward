@@ -1,15 +1,27 @@
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
+import Explore from "./components/Explore";
+import Portfolio from "./components/Portfolio";
+import Watchlist from "./components/Watchlist";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
-    <div className="hero bg-gradient-to-r from-black via-gray-900 to-black">
-      <Header />
-      <HomePage />
-      <Footer />
-    </div>
+    <Router>
+      <div className="hero bg-gradient-to-r from-black via-gray-900 to-black">
+        <Header />
+        <Routes>
+          <Route path="/" element ={<HomePage />}/>
+          <Route path="/explore" element ={<Explore />}/>
+          <Route path="/your-watchlist" element ={<Watchlist />}/>
+          <Route path="/your-portfolio" element ={<Portfolio/>}/>
+          <Route path="/more" element ={<div className="text-white text-4xl flex justify-center items-center h-[80vh]">More Page Coming Soon!</div>}/>
+        </Routes>
+         <Footer />
+      </div>
+    </Router>
   )
 }
 

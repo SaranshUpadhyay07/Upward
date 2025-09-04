@@ -11,48 +11,48 @@ const About = () => {
       <div className="relative w-full mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         
         {/* Feature 1 */}
-        <div className="p-9 bg-gray-900 rounded-2xl  shadow-md flex flex-col gap-5 boxing">
-          <h3 className="text-2xl font-semibold text-blue-500">📊 See Stocks at Ease</h3>
+        <div className="p-9 card1 shadow-md flex flex-col gap-5 boxing">
+          <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="bar-chart-outline"></ion-icon></h3>
           <p className="text-gray-400 text-md">
             Browse market trends, monitor your favorite companies, and never miss a trading opportunity.
           </p>
         </div>
 
         {/* Feature 2 */}
-        <div className="p-9 bg-gray-900  rounded-2xl shadow-md flex flex-col gap-5 boxing">
-          <h3 className="text-2xl font-semibold text-blue-500">⚡ Real-Time Insights</h3>
+        <div className="p-9 card2 shadow-md flex flex-col gap-5 boxing">
+          <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="flash-outline"></ion-icon></h3>
           <p className="text-gray-400 text-md">
             Get instant updates, real-time charts, and market signals to stay ahead in the game.
           </p>
         </div>
 
         {/* Feature 3 */}
-        <div className="p-9 bg-gray-900 rounded-2xl  shadow-md flex flex-col gap-5 boxing">
-          <h3 className="text-2xl font-semibold text-blue-500">📈 Grow Your Portfolio</h3>
+        <div className="p-9 card3 shadow-md flex flex-col gap-5 boxing">
+          <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="stats-chart-outline"></ion-icon></h3>
           <p className="text-gray-400 text-md">
             Track performance, manage risks, and make smarter investment decisions with powerful analytics.
           </p>
         </div> 
 
         {/* Feature 4 */}
-        <div className="p-9 bg-gray-900 rounded-2xl  shadow-md flex flex-col gap-5 boxing">
-          <h3 className="text-2xl font-semibold text-blue-500">🔔 Smart Alerts</h3>
+        <div className="p-9 card4 shadow-md flex flex-col gap-5 boxing">
+          <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="notifications-outline"></ion-icon></h3>
           <p className="text-gray-400 text-md">
             Stay informed with personalized alerts on price changes, news, and market updates that matter to you.
           </p>
         </div>
 
         {/* Feature 5 */}
-        <div className="p-9 bg-gray-900 rounded-2xl  shadow-md flex flex-col gap-5 boxing">
-          <h3 className="text-2xl font-semibold text-blue-500">🤝 Community Driven</h3>
+        <div className="p-9 card5 shadow-md flex flex-col gap-5 boxing">
+          <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="accessibility-outline"></ion-icon></h3>
           <p className="text-gray-400 text-md">
             Join a growing network of investors, share insights, and learn from the community.
           </p>
         </div>
 
         {/* Feature 6 */}
-        <div className="p-9 bg-gray-900 rounded-2xl  shadow-md flex flex-col gap-5 boxing">
-          <h3 className="text-2xl font-semibold text-blue-500">🛡️ Secure & Reliable</h3>
+        <div className="p-9 card6 shadow-md flex flex-col gap-5 boxing">
+          <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="shield-checkmark-outline"></ion-icon></h3>
           <p className="text-gray-400 text-md">
             Your data and investments are safe with enterprise-grade encryption and security protocols.
           </p>

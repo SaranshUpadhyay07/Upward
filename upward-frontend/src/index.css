@@ -43,13 +43,52 @@ header{
 .shadowing{
   text-shadow: 1px 1px 18px rgb(0, 132, 255)
 }
+.shadowing-blue{
+  text-shadow: 2px 2px 18px rgb(0, 132, 255)
+}
 .shadowing-green{
   text-shadow: 1px 1px 18px rgb(0, 255, 149)
 }
-.boxing{
-  box-shadow: 1px 1px 10x rgb(0, 255, 149);
-}
+
 .header{
   border-bottom:3px solid rgb(115, 115, 115);
   
 }
+.card1{
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom-right-radius: 20px;
+
+}
+.card2{
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.card3{
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom-left-radius: 20px;
+}
+.card4{
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-top-right-radius: 20px;
+}
+.card5{
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.card6{
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-top-left-radius: 20px;
+}
+.boxing{
+
+}  

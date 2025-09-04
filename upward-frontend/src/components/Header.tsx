@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // install lucide-react for icons: npm install lucide-react
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ const Header = () => {
     <header className="backdrop-blur-md bg-gradient-to-r from-black to-gray-900 text-white flex justify-between items-center px-6 py-4 shadow-lg border-b border-gray-800 header">
       
       {/* Logo Section */}
-      <div className="flex items-center gap-2">
+      <Link to="/" className="flex items-center gap-2">
             <img 
             src="/logo.png" 
             alt="Company Logo" 
@@ -17,25 +18,25 @@ const Header = () => {
             <h4 className="text-2xl font-bold text-emerald-500 tracking-wide">
             UPWARD
             </h4>
-      </div>
+      </Link>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center gap-8">
-        <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition duration-300">
+        <Link to="/explore" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
           Explore
-        </p>
+        </Link>
         <span className="text-gray-500">|</span>
-        <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition duration-300">
+        <Link to="/your-watchlist" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
           Watchlist
-        </p>
+        </Link>
         <span className="text-gray-500">|</span>
-        <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition duration-300">
+        <Link to="/your-portfolio" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
           Your Portfolio
-        </p>
+        </Link>
         <span className="text-gray-500">|</span>
-        <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition duration-300">
+        <Link to="more" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
           More
-        </p>
+        </Link>
       </nav>
 
       {/* Desktop Button */}
@@ -55,10 +56,21 @@ const Header = () => {
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-gray-900 text-white flex flex-col items-center gap-6 py-6 border-t border-gray-800 md:hidden z-50">
-          <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition">Explore</p>
-          <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition">Watchlist</p>
-          <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition">Your Portfolio</p>
-          <p className="text-lg font-medium hover:text-blue-500 cursor-pointer transition">More</p>
+          <Link to="/explore" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
+          Explore
+        </Link>
+        <span className="text-gray-500">|</span>
+        <Link to="/your-watchlist" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
+          Watchlist
+        </Link>
+        <span className="text-gray-500">|</span>
+        <Link to="/your-portfolio" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
+          Your Portfolio
+        </Link>
+        <span className="text-gray-500">|</span>
+        <Link to="more" className="text-lg font-medium hover:text-blue-400 shadowing-blue cursor-pointer transition duration-300">
+          More
+        </Link>
           <button className="px-5 py-2 border border-blue-500 text-blue-400 rounded-xl hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-md hover:shadow-blue-500/40">
             Login / Register
           </button>
