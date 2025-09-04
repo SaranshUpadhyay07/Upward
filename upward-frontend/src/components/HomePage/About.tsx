@@ -13,7 +13,7 @@ const About = () => {
         {/* Feature 1 */}
         <div className="p-9 card1 shadow-md flex flex-col gap-5 boxing">
           <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="bar-chart-outline"></ion-icon></h3>
-          <p className="text-gray-400 text-md">
+          <p className="text-gray-300 text-md">
             Browse market trends, monitor your favorite companies, and never miss a trading opportunity.
           </p>
         </div>
@@ -21,7 +21,7 @@ const About = () => {
         {/* Feature 2 */}
         <div className="p-9 card2 shadow-md flex flex-col gap-5 boxing">
           <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="flash-outline"></ion-icon></h3>
-          <p className="text-gray-400 text-md">
+          <p className="text-gray-300 text-md">
             Get instant updates, real-time charts, and market signals to stay ahead in the game.
           </p>
         </div>
@@ -29,7 +29,7 @@ const About = () => {
         {/* Feature 3 */}
         <div className="p-9 card3 shadow-md flex flex-col gap-5 boxing">
           <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="stats-chart-outline"></ion-icon></h3>
-          <p className="text-gray-400 text-md">
+          <p className="text-gray-300 text-md">
             Track performance, manage risks, and make smarter investment decisions with powerful analytics.
           </p>
         </div> 
@@ -37,7 +37,7 @@ const About = () => {
         {/* Feature 4 */}
         <div className="p-9 card4 shadow-md flex flex-col gap-5 boxing">
           <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="notifications-outline"></ion-icon></h3>
-          <p className="text-gray-400 text-md">
+          <p className="text-gray-300 text-md">
             Stay informed with personalized alerts on price changes, news, and market updates that matter to you.
           </p>
         </div>
@@ -45,7 +45,7 @@ const About = () => {
         {/* Feature 5 */}
         <div className="p-9 card5 shadow-md flex flex-col gap-5 boxing">
           <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="accessibility-outline"></ion-icon></h3>
-          <p className="text-gray-400 text-md">
+          <p className="text-gray-300 text-md">
             Join a growing network of investors, share insights, and learn from the community.
           </p>
         </div>
@@ -53,7 +53,7 @@ const About = () => {
         {/* Feature 6 */}
         <div className="p-9 card6 shadow-md flex flex-col gap-5 boxing">
           <h3 className="text-3xl font-semibold text-emerald-400"><ion-icon name="shield-checkmark-outline"></ion-icon></h3>
-          <p className="text-gray-400 text-md">
+          <p className="text-gray-300 text-md">
             Your data and investments are safe with enterprise-grade encryption and security protocols.
           </p>
         </div>

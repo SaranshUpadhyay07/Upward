@@ -19,6 +19,20 @@
   width:37px;
   height:45px;
 }
+.HomePage{
+  position: relative;
+}
+.disclaimer{
+  position:sticky;
+  top:0;
+  border: 2px white solid;
+  bottom:30px;
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: 0 2px 25px rgba(0, 255, 149, 0.421);
+  backdrop-filter: blur(5px);
+}
 header{
   border-bottom: rgb(193, 192, 192) 1px solid;
   padding-bottom: 20px !important;
@@ -35,7 +49,6 @@ header{
 .hero-container p{
   position:absolute;
   bottom:65%;
-  
 }
 .about{
   margin-top: 2em;
@@ -49,7 +62,9 @@ header{
 .shadowing-green{
   text-shadow: 1px 1px 18px rgb(0, 255, 149)
 }
-
+.shadowing-red{
+  text-shadow: 1px 1px 18px rgb(255, 0, 0)
+}
 .header{
   border-bottom:3px solid rgb(115, 115, 115);
   
@@ -89,6 +104,6 @@ header{
   border-left: 2px solid white;
   border-top-left-radius: 20px;
 }
-.boxing{
-
-}  
+.para{
+  font-size:1rem;
+}
