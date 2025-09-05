@@ -1,6 +1,5 @@
 import Hero from './HomePage/Hero';
 import About from './HomePage/About';
-import Disclaimer from './HomePage/Disclaimer';
 
 const HomePage = () => {
   return (
