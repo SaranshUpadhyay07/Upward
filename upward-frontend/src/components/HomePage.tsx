@@ -17,9 +17,6 @@ const HomePage = () => {
       <section className="container mx-auto px-4 py-16 md:py-24">
         <About />
       </section>
-      
-      {/* Footer Disclaimer Link */}
-      <a href="/disclaimer" className="text-white disclaimer" >Disclaimer</a>
     </div>
   );
 };

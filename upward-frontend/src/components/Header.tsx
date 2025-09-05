@@ -37,6 +37,10 @@ const Header = () => {
         <Link to="more" className="text-lg font-medium hover:text-green-500 shadowing-blue cursor-pointer transition duration-300">
           More
         </Link>
+        <span className="text-gray-500">|</span>
+        <Link to="/disclaimer" className="text-lg font-medium hover:text-green-500 shadowing-blue cursor-pointer transition duration-300">
+          Disclaimer
+        </Link>
       </nav>
 
       {/* Desktop Button */}
