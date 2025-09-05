@@ -13,13 +13,13 @@ git clone https://github.com/your-username/upward-trading-clone.git
 ```
 ### Frontend setup
 ```bash
-cd upward-front
+cd upward-frontend
 npm install
-npm start
+npm run dev
 ```
 ### Backend Setup
 ```bash
-cd upward-trading-clone/upward-back
+cd Back End
 mvn spring-boot:run
 ```
 ---
