@@ -1,13 +1,13 @@
 
 const Disclaimer = () => {
   return (
-    <div className="about  flex flex-col items-center min-h-[95vh] w-[90vw] max-w-7xl ml-auto mr-auto " id="disclaimer">
+    <div className="about  flex flex-col items-center h-[100vh] w-[100vw] max-w-7xl ml-auto mr-auto " >
       <h1 className="text-5xl md:text-7xl mb-12 text-white shadowing text-center flex items-center gap-4 mt-10">
         Disclaimer
       </h1>
 
       <div className="text-lg text-gray-300 md:text-xl grid grid-cols-3 gap-11">
-        <div>
+        <div id="disclaimer">
             <h2 className="text-3xl text-white font-semibold shadowing-green mb-4">Educational and Simulated Trading</h2>
             <p className="mb-6 para text-justify">
             Welcome to <span className="text-emerald-500 font-bold">Upward</span>. Please note that this is a <span className="font-bold text-white">demo and simulated trading platform</span>, designed exclusively for educational and learning purposes. All trades on this platform are hypothetical and involve <span className="font-bold text-white">virtual money; no real funds are at risk</span>.

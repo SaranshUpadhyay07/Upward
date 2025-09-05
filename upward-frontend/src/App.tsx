@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Explore from "./components/Explore";
 import Portfolio from "./components/Portfolio";
 import Watchlist from "./components/Watchlist";
+import Disclaimer from "./components/HomePage/Disclaimer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/your-watchlist" element ={<Watchlist />}/>
           <Route path="/your-portfolio" element ={<Portfolio/>}/>
           <Route path="/more" element ={<div className="text-white text-4xl flex justify-center items-center h-[80vh]">More Page Coming Soon!</div>}/>
+          <Route path="/disclaimer" element={<Disclaimer />} />
         </Routes>
          <Footer />
       </div>
