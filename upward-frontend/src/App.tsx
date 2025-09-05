@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Explore from "./components/Explore";
 import Portfolio from "./components/Portfolio";
 import Watchlist from "./components/Watchlist";
-import Disclaimer from "./components/HomePage/Disclaimer";
+import Disclaimer from "./components/Disclaimer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
