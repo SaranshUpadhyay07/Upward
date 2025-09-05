@@ -22,7 +22,7 @@ const Header = () => {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center gap-8">
-        <Link to="/explore" className="text-lg font-medium hover:text-green-500 shadowing-blue cursor-pointer transition duration-300">
+        <Link to="/explore" className="text-lg font-medium hover:text-green-500 active:text-green-500 shadowing-blue cursor-pointer transition duration-300">
           Explore
         </Link>
         <span className="text-gray-500">|</span>

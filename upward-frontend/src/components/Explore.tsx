@@ -1,7 +1,7 @@
 
 const Explore = () => {
   return (
-    <div>Explore</div>
+    <div className="h-[100vh]">Explore</div>
   )
 }
 
